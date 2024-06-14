@@ -1,10 +1,8 @@
-// src/pages/AllProductsPage.jsx
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 const AllProductsPage = () => {
-    // Simulated list of products
+    
     const products = [
         {
             id: 1,
@@ -26,7 +24,6 @@ const AllProductsPage = () => {
             discount: "15%",
             availability: false
         },
-        // Add more products as needed
     ];
 
     return (

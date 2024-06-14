@@ -1,12 +1,8 @@
-// src/pages/ProductDetailPage.jsx
-
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
 const ProductDetailPage = () => {
     const { id } = useParams();
-
-    // Simulated product details
     const product = {
         id,
         name: "Product Name",
